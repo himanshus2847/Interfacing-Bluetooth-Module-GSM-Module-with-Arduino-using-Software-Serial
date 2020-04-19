@@ -19,7 +19,7 @@ void loop()
     {
       Serial.println("AT+CMGF=1");
       delay(1000);
-      Serial.println("AT+CMGS=\"+916202503280\"\r");
+      Serial.println("AT+CMGS=\"+91XXXXXXXXXX\"\r");
       delay(1000);
       Serial.println("Switch 1 is ON now!");
       delay(1000);
@@ -30,7 +30,7 @@ void loop()
     {
       Serial.println("AT+CMGF=1");
       delay(1000);
-      Serial.println("AT+CMGS=\"+916202503280\"\r");
+      Serial.println("AT+CMGS=\"+91XXXXXXXXXX\"\r");
       delay(1000);
       Serial.println("Switch 1 is OFF now!");
       delay(1000);
